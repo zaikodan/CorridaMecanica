@@ -10,7 +10,6 @@ public class Control : MonoBehaviour {
     {
         vision = new Vision();
         model = new Model(vision.GetAmount());
-        // Comentário whatever pra testar o git.
     }
 
     public void Buy(char product, int level)
