@@ -10,6 +10,7 @@ public class Control : MonoBehaviour {
     {
         vision = new Vision();
         model = new Model(vision.GetAmount());
+        //fjdklsajçfkldjklsa
     }
 
     public void Buy(char product, int level)
