@@ -57,7 +57,7 @@ public class Player : MonoBehaviour {
     public void Movement()
     {
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
-        GameObject Destiny = GameObject.Find("House (" + currentHouse + ")");
+        GameObject Destiny = GameObject.Find("Casa(" + currentHouse + ")");
         Vector3 localDestiny = Destiny.transform.position;
         agent.SetDestination(localDestiny);
     }
